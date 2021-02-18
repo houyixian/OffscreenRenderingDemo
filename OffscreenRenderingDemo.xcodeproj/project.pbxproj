@@ -13,6 +13,8 @@
 		58AA1E8525DE5CAF00E1F0E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AA1E8325DE5CAF00E1F0E5 /* Main.storyboard */; };
 		58AA1E8725DE5CB100E1F0E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58AA1E8625DE5CB100E1F0E5 /* Assets.xcassets */; };
 		58AA1E8A25DE5CB100E1F0E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AA1E8825DE5CB100E1F0E5 /* LaunchScreen.storyboard */; };
+		58AA1E9325DE61F000E1F0E5 /* CornerRadiusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA1E9225DE61F000E1F0E5 /* CornerRadiusViewController.swift */; };
+		58AA1E9625DE634400E1F0E5 /* ShadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA1E9525DE634400E1F0E5 /* ShadowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		58AA1E8625DE5CB100E1F0E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58AA1E8925DE5CB100E1F0E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58AA1E8B25DE5CB100E1F0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58AA1E9225DE61F000E1F0E5 /* CornerRadiusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusViewController.swift; sourceTree = "<group>"; };
+		58AA1E9525DE634400E1F0E5 /* ShadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				58AA1E8625DE5CB100E1F0E5 /* Assets.xcassets */,
 				58AA1E8825DE5CB100E1F0E5 /* LaunchScreen.storyboard */,
 				58AA1E8B25DE5CB100E1F0E5 /* Info.plist */,
+				58AA1E9225DE61F000E1F0E5 /* CornerRadiusViewController.swift */,
+				58AA1E9525DE634400E1F0E5 /* ShadowViewController.swift */,
 			);
 			path = OffscreenRenderingDemo;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58AA1E9625DE634400E1F0E5 /* ShadowViewController.swift in Sources */,
 				58AA1E8225DE5CAF00E1F0E5 /* ViewController.swift in Sources */,
 				58AA1E7E25DE5CAF00E1F0E5 /* AppDelegate.swift in Sources */,
+				58AA1E9325DE61F000E1F0E5 /* CornerRadiusViewController.swift in Sources */,
 				58AA1E8025DE5CAF00E1F0E5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
