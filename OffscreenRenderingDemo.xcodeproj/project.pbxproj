@@ -15,6 +15,10 @@
 		58AA1E8A25DE5CB100E1F0E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AA1E8825DE5CB100E1F0E5 /* LaunchScreen.storyboard */; };
 		58AA1E9325DE61F000E1F0E5 /* CornerRadiusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA1E9225DE61F000E1F0E5 /* CornerRadiusViewController.swift */; };
 		58AA1E9625DE634400E1F0E5 /* ShadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA1E9525DE634400E1F0E5 /* ShadowViewController.swift */; };
+		58AA1E9925DF5F7800E1F0E5 /* GroupOpacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA1E9825DF5F7800E1F0E5 /* GroupOpacityViewController.swift */; };
+		58AA1E9C25DF68BF00E1F0E5 /* MaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA1E9B25DF68BF00E1F0E5 /* MaskViewController.swift */; };
+		58AA1E9F25DF936500E1F0E5 /* UIBlurEffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA1E9E25DF936500E1F0E5 /* UIBlurEffectViewController.swift */; };
+		58AA1EA225DF978600E1F0E5 /* ShouldRasterizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA1EA125DF978600E1F0E5 /* ShouldRasterizeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		58AA1E8B25DE5CB100E1F0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58AA1E9225DE61F000E1F0E5 /* CornerRadiusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusViewController.swift; sourceTree = "<group>"; };
 		58AA1E9525DE634400E1F0E5 /* ShadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowViewController.swift; sourceTree = "<group>"; };
+		58AA1E9825DF5F7800E1F0E5 /* GroupOpacityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupOpacityViewController.swift; sourceTree = "<group>"; };
+		58AA1E9B25DF68BF00E1F0E5 /* MaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskViewController.swift; sourceTree = "<group>"; };
+		58AA1E9E25DF936500E1F0E5 /* UIBlurEffectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBlurEffectViewController.swift; sourceTree = "<group>"; };
+		58AA1EA125DF978600E1F0E5 /* ShouldRasterizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShouldRasterizeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,10 @@
 				58AA1E8B25DE5CB100E1F0E5 /* Info.plist */,
 				58AA1E9225DE61F000E1F0E5 /* CornerRadiusViewController.swift */,
 				58AA1E9525DE634400E1F0E5 /* ShadowViewController.swift */,
+				58AA1E9825DF5F7800E1F0E5 /* GroupOpacityViewController.swift */,
+				58AA1E9B25DF68BF00E1F0E5 /* MaskViewController.swift */,
+				58AA1E9E25DF936500E1F0E5 /* UIBlurEffectViewController.swift */,
+				58AA1EA125DF978600E1F0E5 /* ShouldRasterizeViewController.swift */,
 			);
 			path = OffscreenRenderingDemo;
 			sourceTree = "<group>";
@@ -147,7 +159,11 @@
 				58AA1E8225DE5CAF00E1F0E5 /* ViewController.swift in Sources */,
 				58AA1E7E25DE5CAF00E1F0E5 /* AppDelegate.swift in Sources */,
 				58AA1E9325DE61F000E1F0E5 /* CornerRadiusViewController.swift in Sources */,
+				58AA1EA225DF978600E1F0E5 /* ShouldRasterizeViewController.swift in Sources */,
+				58AA1E9F25DF936500E1F0E5 /* UIBlurEffectViewController.swift in Sources */,
+				58AA1E9925DF5F7800E1F0E5 /* GroupOpacityViewController.swift in Sources */,
 				58AA1E8025DE5CAF00E1F0E5 /* SceneDelegate.swift in Sources */,
+				58AA1E9C25DF68BF00E1F0E5 /* MaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

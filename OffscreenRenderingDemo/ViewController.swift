@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+        navigationItem.title = "打开Color Off-screen Rendered观察"
     }
 
 
@@ -31,8 +32,16 @@ extension ViewController: UITableViewDataSource {
             cell.textLabel?.text = "圆角"
         case 1:
             cell.textLabel?.text = "阴影"
+        case 2:
+            cell.textLabel?.text = "group opacity"
+        case 3:
+            cell.textLabel?.text = "mask"
+        case 4:
+            cell.textLabel?.text = "UIBlurEffect"
+        case 5:
+            cell.textLabel?.text = "shouldRasterize"
         default:
-            cell.textLabel?.text = "例子还没完善"
+            cell.textLabel?.text = "未完待续"
         }
         return cell
     }
@@ -49,6 +58,19 @@ extension ViewController: UITableViewDelegate {
         case 1:
             let vc = ShadowViewController()
             navigationController?.pushViewController(vc, animated: true)
+        case 2:
+            let vc = GroupOpacityViewController()
+            navigationController?.pushViewController(vc, animated: true)
+        case 3:
+            let vc = MaskViewController()
+            navigationController?.pushViewController(vc, animated: true)
+        case 4:
+            let vc = UIBlurEffectViewController()
+            navigationController?.pushViewController(vc, animated: true)
+        case 5:
+            let vc = ShouldRasterizeViewController()
+            navigationController?.pushViewController(vc, animated: true)
+            break
         default:
             break
         }
