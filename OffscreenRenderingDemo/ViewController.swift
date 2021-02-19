@@ -40,6 +40,8 @@ extension ViewController: UITableViewDataSource {
             cell.textLabel?.text = "UIBlurEffect"
         case 5:
             cell.textLabel?.text = "shouldRasterize"
+        case 6:
+            cell.textLabel?.text = "edgeAntialiasing"
         default:
             cell.textLabel?.text = "未完待续"
         }
@@ -70,7 +72,9 @@ extension ViewController: UITableViewDelegate {
         case 5:
             let vc = ShouldRasterizeViewController()
             navigationController?.pushViewController(vc, animated: true)
-            break
+        case 6:
+            let vc = EdgeAntialiasingViewController()
+            navigationController?.pushViewController(vc, animated: true)
         default:
             break
         }
