@@ -32,6 +32,8 @@ class ShouldRasterizeViewController: UIViewController {
         let view2 = UIView(frame: view2Frame)
         view2.backgroundColor = .red
         view2.layer.shouldRasterize = true
+        // 有文章建议说如果你最后设置了shouldRasterize为YES，那也要记住设置rasterizationScale为 contentsScale。
+        view2.layer.rasterizationScale = view2.layer.contentsScale
         view.addSubview(label2)
         view.addSubview(view2)
     }
